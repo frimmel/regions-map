@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+#wrapper {
+    width: 800px;
+    min-height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+path {
+    fill: #555656;
+    stroke: #fff;
+    stroke-width: 2;
+}
+
+path:hover {
+    fill: #17b1c5;
+}
+
+#descriptions {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.region-desc-wrapper {
+    max-width: 50%;
+    background-color: #576e7f;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    font-family: helvetica, arial;
+    position: relative;
+    display: none;
+}
+
+.region-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: .5em;
+}
+
+.region-desc {
+    font-size: 12px;
+    max-width: 65%;
+}
+
+.region-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 26%;
+    padding: 15px;
+}
+
+.region-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.northwest #northwest {
+    display: block;
+}
+
+.southwest #southwest {
+    display: block;
+}
+
+.greatplains #greatplains {
+    display: block;
+}
+
+.midwest #midwest {
+    display: block;
+}
+
+.northeast #northeast {
+    display: block;
+}
+
+.southeast #southeast {
+    display: block;
+}
+
+.hawaii #hawaii {
+    display: block;
+}
+
+.alaska #alaska {
+    display: block;
+}
+
