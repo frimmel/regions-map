@@ -26,12 +26,12 @@ path:hover {
 
 #descriptions {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
+    width: 50%;
 }
 
 .region-desc-wrapper {
-    max-width: 50%;
     background-color: #576e7f;
     border: 1px solid #fff;
     color: #fff;
