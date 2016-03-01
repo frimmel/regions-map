@@ -24,6 +24,20 @@ path:hover {
     fill: #17b1c5;
 }
 
+.hawaii-helper {
+    fill: none;
+    stroke-width: 0;
+}
+
+.hawaii-helper:hover {
+    fill: none;
+}
+
+.hawaii-helper:hover + path {
+    fill: #17b1c5;
+}
+
+
 #descriptions {
     position: absolute;
     bottom: 0;
