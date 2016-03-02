@@ -8,11 +8,14 @@ $(".map-region").hover(
     }
 );
 
-$(".map-region").focus(
+$("a.map-region-link").focus(
     function (e) {
-        var region = $(this).data("region");
+        var region = $(this).find(".map-region").data("region");
         $("#descriptions").removeClass().addClass(region);
-    },
+    }
+);
+
+$("a.map-region-link").focusout(
     function (e) {
         $("#descriptions").removeClass();
     }
