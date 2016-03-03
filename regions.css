@@ -17,6 +17,18 @@ body {
     position: relative;
 }
 
+#svgwrapper {
+    height: 1px;
+    padding-bottom: 48%;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 path {
     fill: #555656;
     stroke: #fff;
@@ -28,7 +40,7 @@ path:hover {
 }
 
 .hawaii-helper {
-    fill: none;
+    fill: transparent;
     stroke-width: 0;
 }
 
@@ -135,7 +147,7 @@ path:hover {
         width: 100%;
     }
 
-    ..region-desc {
+    .region-desc {
         width: 70%;
     }
 }
